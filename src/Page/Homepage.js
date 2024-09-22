@@ -9,6 +9,7 @@ import Slate from "../Components/Slate";
 import EndExit from "../Components/EndExit";
 import Social from "../Components/Social";
 import InfoSection from "../Components/InfoSection";
+import Footer from "../Components/Footer";
 
 const Homepage = () => {
   return (
@@ -24,6 +25,7 @@ const Homepage = () => {
         <EndExit />
         <Social />
         <InfoSection />
+        <Footer />
       </div>
     </>
   );
