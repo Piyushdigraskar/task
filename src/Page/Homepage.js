@@ -3,6 +3,7 @@ import HomeIntro from "../Components/HomeIntro";
 import Header from "../Components/Header";
 import Features from "../Components/Features";
 import ImageTextLayout from "../Components/ImageTextLayout";
+import Pitch from "../Components/Pitch";
 
 const Homepage = () => {
   return (
@@ -12,6 +13,7 @@ const Homepage = () => {
         <HomeIntro />
         <Features />
         <ImageTextLayout />
+        <Pitch />
       </div>
     </>
   );
