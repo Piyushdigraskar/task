@@ -8,6 +8,7 @@ import GallerySection from "../Components/GallarySection";
 import Slate from "../Components/Slate";
 import EndExit from "../Components/EndExit";
 import Social from "../Components/Social";
+import InfoSection from "../Components/InfoSection";
 
 const Homepage = () => {
   return (
@@ -22,6 +23,7 @@ const Homepage = () => {
         <Slate />
         <EndExit />
         <Social />
+        <InfoSection />
       </div>
     </>
   );
