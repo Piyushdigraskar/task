@@ -4,6 +4,7 @@ import Header from "../Components/Header";
 import Features from "../Components/Features";
 import ImageTextLayout from "../Components/ImageTextLayout";
 import Pitch from "../Components/Pitch";
+import GallerySection from "../Components/GallarySection";
 
 const Homepage = () => {
   return (
@@ -14,6 +15,7 @@ const Homepage = () => {
         <Features />
         <ImageTextLayout />
         <Pitch />
+        <GallerySection />
       </div>
     </>
   );
