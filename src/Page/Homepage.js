@@ -5,6 +5,9 @@ import Features from "../Components/Features";
 import ImageTextLayout from "../Components/ImageTextLayout";
 import Pitch from "../Components/Pitch";
 import GallerySection from "../Components/GallarySection";
+import Slate from "../Components/Slate";
+import EndExit from "../Components/EndExit";
+import Social from "../Components/Social";
 
 const Homepage = () => {
   return (
@@ -16,6 +19,9 @@ const Homepage = () => {
         <ImageTextLayout />
         <Pitch />
         <GallerySection />
+        <Slate />
+        <EndExit />
+        <Social />
       </div>
     </>
   );
